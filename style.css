@@ -7,6 +7,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
   --light: #fff;
   --dark: #000;
 }
@@ -23,7 +25,16 @@ h1{
   background: linear-gradient(#e66465, #9198e5);
 }
 
+.card{
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
 
+.code{
+  font-family: Consolas, 'Courier New', monospace;
+}
 
 
 

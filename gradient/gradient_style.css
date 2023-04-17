@@ -12,7 +12,9 @@ h1{
 }
 
 #gradient_layout{
-  width: 100%;
+  width: auto;
   height: 100vh;
+  margin: 20vw;
+  padding: 30vw;
   background: linear-gradient(#e66465, #9198e5);
 }

@@ -16,6 +16,8 @@
     </div>  
 
     <div class="sliders">
+      <input id="opacity_slider" type="range"/>
+      <p>Value: <output id="value"></output></p>
 
     </div>
 
@@ -34,7 +36,12 @@
     </div>
 
     <div class="code">
-
+      <p>.card{
+        backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(17, 25, 40, 0.75);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+      }</p>
     </div>
 
     <script src="script.js"></script>
