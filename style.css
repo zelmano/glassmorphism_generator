@@ -7,13 +7,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #000;
-  color: #fff;
   --light: #fff;
   --dark: #000;
 }
 
 body{
+  background-color: #000;
+  color: #fff;
   font-family: Lato;
 }
 
@@ -22,6 +22,7 @@ h1{
 }
 
 #card_layout{
+  padding: 20px;
   background: linear-gradient(#e66465, #9198e5);
 }
 
